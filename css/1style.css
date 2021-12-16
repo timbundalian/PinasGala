@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Open+Sans:wght@300;800&family=Readex+Pro:wght@700&family=Roboto:wght@300;700&family=Rubik:wght@500&family=Smooch&display=swap');
+
+*{
+    padding: 0 auto;
+
+}
+body{
+    width: 100%;
+    background: #fafafa;
+    position: relative;
+    font-family: 'roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background:rgb(240, 235, 235);
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    transition: 300ms;
+    
+
+}
+.nav.active{
+    background: black;
+  
+}
+
+.focus{
+    outline: none;
+}
+.navwrap{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+   
+}
+
+.items{
+    display: flex;
+    position: relative;
+    padding: 0 15px;
+}
+.logo{
+ display: flex;
+ float: left;
+ 
+}
+.logo img{
+    border-radius: 0px;
+}
+
+.icon{
+    
+    height: 100%;
+    margin: 0 10px;
+    display: inline-block;
+
+}
+
+.navbutton{
+   display: flex;
+   left: 50%;
+   
+    
+}
+.navbutton a{
+    text-decoration: none;
+    color:gray;
+
+}
+.navbutton a:hover{
+    color:yellowgreen;
+
+}
+
+.navy{
+    display: flex;
+    padding: 0 15px;
+}
+.container{
+ padding:0 auto;
+ margin:0 auto;
+ justify-content: center;
+ 
+
+}
+.wholePics{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    justify-content: center;
+   
+}
+.headerFont{
+    margin-top: 50px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+    
+    
+}
+.contents{
+    display: grid;
+    grid-template-columns:repeat( 2, 1fr);
+    margin-left: 30px;
+    justify-content: center;
+    padding-right: 20px;
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+
+}
+.content2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    
+}
+.content3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+    
+}
+.content4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+       
+}
+
+.content6{
+padding-bottom: 150px;
+}
+
+.contents p{
+    font-family:'Open Sans', sans-serif ;
+    font-size: small;
+    width: 80%;
+}
+.contents h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold ;
+    font-size: medium;
+
+
+}
+.contents button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+   border-color: aquamarine;
+   color: rgb(117, 115, 236);
+   display: inline-block;
+   border-radius: 4px;
+   border: none;
+   text-align: center;
+   font-size: 15px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+}
+.pindutan:hover{
+    background-color:blue;
+    color: white;
+}
+
+.imageTwo{
+    height: 20px;
+    width: 23px;
+   
+}
+.content5{
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+.content6{
+    margin-top: 100px;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+
+.heady{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.images {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-bottom: 150px;
+    
+}
+.images img{
+    border-radius: 400px;
+
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.hr p{
+    padding-bottom: 30px;
+
+}
+.hr p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
